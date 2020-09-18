@@ -14,16 +14,20 @@ import sys - to achieve the list of command line arguments passed to a Python sc
 import shutil - to move the files from one directory to another
 import ntpath - to get the exact path of the file
 
-•	To Organise as per Alphabet of the Files:
+•To Organise as per Alphabet of the Files:
+
 Initially, the total files would be accessed from the current directory (os.getcwd())
  and then the files are arranged into their subdirectories, which were created and named according to the first name of the files. All the directories are stored under a root directory named as “Organized”.
-•	To Organise as per extension of the Files:
+ 
+•To Organise as per extension of the Files:
 A dictionary was created with “key” as target directory and “values” which comprises the list of extension. The path of the file would be scanned and the extension of the file in the computer directory would be compared to the dictionary comprising of extensions. If matched, then a new directory named Organized would be created and files would be pushed into sub folders created already.
-•	To Organise as per size of the Files:
+
+•To Organise as per size of the Files:
 A variable (named “size”) was created to store the size of the file. All the files in particular directory would be scanned and as per the size of the file, they would be moved into the designated sub folders (BYTES, KB, MB, GB), under the root directory “Organized
 
 
-Instructions to run
+Instructions to run:
+
 The inputs can be given using CLI, you have to paste the fileOrganizer.py file inside that folder where all the junk files are present and then open the CLI and pass the following commands:
 	The default format would be: Python “Filename” “Argument name”
 •	To organize as per Alphabet		: 	python fileOrganizer.py alpha
