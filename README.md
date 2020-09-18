@@ -29,8 +29,13 @@ A variable (named “size”) was created to store the size of the file. All the
 Instructions to run:
 
 The inputs can be given using CLI, you have to paste the fileOrganizer.py file inside that folder where all the junk files are present and then open the CLI and pass the following commands:
+
 	The default format would be: Python “Filename” “Argument name”
-•	To organize as per Alphabet		: 	python fileOrganizer.py alpha
+	
+•	To organize as per Alphabet	: 	python fileOrganizer.py alpha
+
 •	To organize as per Extension	: 	python fileOrganizer.py ext
+
 •	To organize as per size		: 	python fileOrganizer.py size
+
 The default option was made to “alpha”, If no organizing argument was chosen, the directory would be organized by alphabets
